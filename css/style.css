@@ -175,6 +175,10 @@ display: flex;
 justify-content: center;
 }
 
+.link-mail {
+margin-right: 30px;
+}
+
 .auth-link-mail {
 display: flex;
 align-items: center;
@@ -183,7 +187,6 @@ justify-content: center;
 gap: 10px;
 padding-top: 32px;
 padding-bottom: 32px;
-margin-right: 30px;
 
 color: var(--primary-text-color);
 
@@ -635,6 +638,7 @@ line-height: 1.71;
 
 .box-footer {
 display: flex;
+align-items: baseline;
 }
 
 .box-footer-icon {
