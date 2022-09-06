@@ -211,7 +211,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 
-transition-property: color,fill;
+transition-property: color, fill;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -239,7 +239,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 
-transition-property: color,fill;
+transition-property: color, fill;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -314,7 +314,7 @@ min-width: 216px;
 border-radius: 4px;
 border: 1px solid transparent;
 
-transition-property: background-color,box-shadow,cursor;
+transition-property: background-color, box-shadow, cursor;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -555,7 +555,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 
-transition-property: color,background-color;
+transition-property: color, background-color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -612,7 +612,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 
-transition-property: color,border;
+transition-property: color, border;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -812,7 +812,7 @@ border: 1px solid transparent;
 color: var(--title-text-color);
 background-color: var(--secondary-background-color-pag);
 
-transition-property: color,background-color,cursor,box-shadow;
+transition-property: color, background-color, cursor, box-shadow;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
