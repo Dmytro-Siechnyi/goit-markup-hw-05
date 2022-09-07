@@ -163,7 +163,7 @@ text-decoration: none;
 color: var(--accent-color);
 }
 
-.site-nav-link {
+.link-current {
 position: relative;
 display: block;
 }
