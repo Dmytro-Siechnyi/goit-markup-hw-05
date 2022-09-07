@@ -354,7 +354,8 @@ width: 100%;
 height: 100%;
 background-color: var(--backdrop-color);
 
-transition: opacity 250ms;
+
+transition: opacity 250ms, visibility 250ms;
 }
 
 .backdrop.is-hidden {
