@@ -181,6 +181,7 @@ height: 4px;
 background: var(--accent-color);
 border-radius: 2px;
 
+transform: scaleX(1);
 transition-property: transform;
 transition-duration: 250ms;
 transition-delay: 250ms;
