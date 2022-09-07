@@ -356,8 +356,9 @@ background-color: var(--backdrop-color);
 }
 
 .backdrop.is-hidden {
-opacity: 0;
+opacity: 1;
 pointer-events: none;
+visibility: hidden;
 }
 
 .modal {
