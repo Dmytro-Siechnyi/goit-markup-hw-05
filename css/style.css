@@ -180,6 +180,17 @@ height: 4px;
 
 background: var(--accent-color);
 border-radius: 2px;
+
+opacity: 0;
+
+transition-property: opacity;
+transition-duration: 250ms;
+transition-delay: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.site-nav-link:hover::after {
+opacity: 1;
 }
 
 .link-current {
