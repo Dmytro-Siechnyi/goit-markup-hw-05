@@ -96,9 +96,22 @@
             Ефективні рішення для <br />
             вашого бізнесу
           </h1>
-          <button type="button" class="hero-button">Замовити послугу</button>
+          <button type="button" class="hero-button" data-modal-open>
+            Замовити послугу
+          </button>
         </div>
       </section>
+
+      <!-- Модальное окно -->
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <p></p>
+          <button type="button" class="modal-button" data-modal-close>
+            <b>✕</b>
+          </button>
+        </div>
+      </div>
+
       <!-- Особливості -->
       <section class="section">
         <div class="container">
@@ -160,6 +173,7 @@
           <h2 class="work-title">Чим ми займаємося</h2>
           <ul class="work list">
             <li class="work-list">
+              <div></div>
               <img
                 src="./images/img.jpg"
                 alt="Робота з десктопними додатками"
