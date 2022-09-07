@@ -414,7 +414,7 @@ color: var(--accent-color);
 fill: var(--accent-color);
 }
 
-/* Особливості */
+/* Скриття елементів */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -428,6 +428,7 @@ fill: var(--accent-color);
   overflow: hidden;
 }
 
+/* Особливості */
 .features {
 --items: 4;
 display: flex;
