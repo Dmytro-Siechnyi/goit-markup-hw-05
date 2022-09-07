@@ -189,7 +189,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-current:hover::after {
-transform: scaleX(0.5);
+transform: scaleX(0.4);
 }
 
 .link-current {
