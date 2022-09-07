@@ -381,6 +381,10 @@ position: absolute;
 top: 8px;
 right: 8px;
 
+display: flex;
+justify-content: center;
+align-items: center;
+
 width: 30px;
 height: 30px;
 
@@ -388,12 +392,13 @@ border-radius: 50%;
 border: 1px solid var(--border-bottom-modal);
 color: var(--bottom-madal);
 background-color: var(--background-color-header);
+
+cursor: pointer;
 }
 
 .modal-button:hover, 
 .modal-button:focus {
 color: var(--accent-color);
-cursor: pointer;
 }
 
 /* Особливості */
