@@ -947,7 +947,7 @@ display: block;
 overflow: hidden;
 }
 
-.projects-box-item {
+.projects-overlay {
 position: absolute;
 bottom: 0;
 left: 0;
@@ -992,7 +992,7 @@ letter-spacing: 0.03em;
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.projects-link:hover .projects-box-item {
+.projects-link:hover .projects-overlay {
 opacity: 1;
 transform: translateY(0%);
 }
