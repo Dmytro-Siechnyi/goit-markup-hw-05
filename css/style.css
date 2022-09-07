@@ -354,7 +354,6 @@ width: 100%;
 height: 100%;
 background-color: var(--backdrop-color);
 
-
 transition: opacity 250ms, visibility 250ms;
 }
 
@@ -388,6 +387,12 @@ display: flex;
 justify-content: center;
 align-items: center;
 
+transition-property: color, fill;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+padding: 6px;
+
 width: 30px;
 height: 30px;
 
@@ -399,9 +404,14 @@ background-color: var(--background-color-header);
 cursor: pointer;
 }
 
+.close-btn {
+fill: currentColor;
+}
+
 .modal-button:hover, 
 .modal-button:focus {
 color: var(--accent-color);
+fill: var(--accent-color);
 }
 
 /* Особливості */
